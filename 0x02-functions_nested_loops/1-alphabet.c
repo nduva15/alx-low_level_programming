@@ -4,38 +4,32 @@
 
 /**
 
- * print_alphabet-this prints a - z
+ * print_alphabet - print alphabet
 
- * Description: Write a function that prints the alphabet,
+ *
 
- * in lowercase, followed by a new line.
-
- * Return: Always 0.
+ * Return: void
 
  */
 
-
-
-int print_alphabet(void)
+void print_alphabet(void)
   
 {
   
-  char c = 'a';
+  char letter = 'a';
   
 
   
-  while (c <= 'z')
+  while (letter <= 'z')
     
     {
       
-      _putchar(c);
+      _putchar(letter);
       
-      c++;
+      letter++;
       
     }
   
   _putchar('\n');
-  
-  return (0);
   
 }
